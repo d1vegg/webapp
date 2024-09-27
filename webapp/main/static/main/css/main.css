@@ -8,10 +8,10 @@ aside {
     padding: 2.5%;
     height: 100vh;
     color: #fff;
-    borde-right: 5px solid #4d4d4d;
+    border-right: 5px solid #4d4d4d;
 }
 aside img{
-    width: 80px;
+    width: 100px;
     float: left;
 }
 aside .logo {
@@ -19,7 +19,7 @@ aside .logo {
     margin-left: 10px;
     font-weight: bold;
     position: relative;
-    top: -5px;
+    top: +40px;
 }
 
 aside h3 {
