@@ -5,5 +5,9 @@ def index(request):
     return render(request, 'main/index.html')
 
 
-def about(request):
-    return render(request, 'main/about.html')
+def buying(request):
+    return render(request, 'main/buying.html')
+
+
+def selling(request):
+    return render(request, "main/selling.html")
