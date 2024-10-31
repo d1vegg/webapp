@@ -3,6 +3,22 @@
 {% block content %}
     <h1>Продать</h1>
     <p>Usdt</p>
+<form method="post" action="app/save_page">
+<p>
+Name:<input type="text" name="Nickname"/>
+</p>
+<p>
+Phone:<input type="text" name="phone"/>
+</p>
+<p>
+Email:<input type="text" name="email"/>
+</p>
+<p>
+<textarea name="description" rows=20 cols=60>
+</textarea><br>
+</p>
+<input type="submit" value="Submit"/>
+</form>
 {% endblock %}
 
 {% block title %}Продать крипто{% endblock %}
