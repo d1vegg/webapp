@@ -20,6 +20,4 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name = "home"),
-    path('buying', views.buying, name = "buying"),
-    path('selling', views.selling, name = "selling")
 ]
